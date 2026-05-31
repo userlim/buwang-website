@@ -1,0 +1,168 @@
+{
+  "nav": {
+    "about": "About",
+    "why": "Why BUWANG",
+    "contact": "Contact",
+    "cta": "Get Started"
+  },
+  "hero": {
+    "headline": "The Future of",
+    "headlineAccent": "Motorcycle Maintenance.",
+    "sub": "Digitizing maintenance records to resolve information asymmetry in the used motorcycle market",
+    "cta": "Learn More"
+  },
+  "about": {
+    "badge": "BUWANG (部王)",
+    "title": "King of Motorcycle Maintenance.",
+    "values": [
+      {
+        "label": "For repair shops,",
+        "highlight": "free ERP",
+        "suffix": ""
+      },
+      {
+        "label": "For riders,",
+        "highlight": "certified maintenance records",
+        "suffix": ""
+      },
+      {
+        "label": "For the market,",
+        "highlight": "transparent pricing standards",
+        "suffix": ""
+      }
+    ],
+    "marketTitle": "Korean motorcycle maintenance market",
+    "marketSub": "₩1 trillion annually, 90% of shops still use paper records"
+  },
+  "stats": {
+    "items": [
+      { "value": "2.1", "unit": "M", "suffix": "", "label": "Registered motorcycles in Korea" },
+      { "value": "3,200", "unit": "", "suffix": "+", "label": "Specialized repair shops", "sub": "Vehicle Management Act" },
+      { "value": "1", "unit": "T", "suffix": " KRW", "label": "Annual market size" },
+      { "value": "3", "unit": "", "suffix": "x", "label": "Max price variance for same parts", "sub": "Newsis 2022" }
+    ]
+  },
+  "features": {
+    "badge": "Core Technology",
+    "title": "Everything you need\nin one platform",
+    "items": [
+      {
+        "icon": "monitor",
+        "title": "Shop ERP",
+        "desc": "Revenue, vehicles, staff, and estimates in one view. Start for free."
+      },
+      {
+        "icon": "scan",
+        "title": "License Plate OCR",
+        "desc": "Point your camera for instant vehicle recognition. Record maintenance in under 3 minutes."
+      },
+      {
+        "icon": "shield",
+        "title": "Certified Records",
+        "desc": "Maintenance records auto-accumulate per vehicle. Verified data for resale."
+      },
+      {
+        "icon": "file",
+        "title": "Repair Estimates",
+        "desc": "Auto-generated estimates based on OEM part codes. A new standard for insurance claims."
+      }
+    ]
+  },
+  "process": {
+    "badge": "3-Minute Record",
+    "title": "Just point your camera at the plate",
+    "steps": [
+      { "num": "01", "title": "Scan Plate", "desc": "Point your camera at the license plate" },
+      { "num": "02", "title": "Auto Detect", "desc": "Vehicle recognized in 3 seconds" },
+      { "num": "03", "title": "Select Items", "desc": "Choose maintenance items with a single tap" },
+      { "num": "04", "title": "Done", "desc": "Complete record in under 3 minutes" }
+    ]
+  },
+  "audience": {
+    "badge": "For Everyone",
+    "title": "A platform for every participant\nin the motorcycle ecosystem",
+    "personas": [
+      {
+        "icon": "wrench",
+        "role": "Shop Owners",
+        "desc": "No more paper ledgers. See today's completions, revenue, and item analytics at a glance.",
+        "sub": "Snap the plate, tap items, done. OCR recognizes vehicles and auto-recommends compatible parts."
+      },
+      {
+        "icon": "bike",
+        "role": "Delivery Riders",
+        "desc": "Manage your bike's maintenance history at a glance. Get replacement alerts before breakdowns."
+      },
+      {
+        "icon": "check",
+        "role": "Used Bike Buyers",
+        "desc": "Trade with confidence. Check maintenance scores, last service date, and certified shops."
+      }
+    ]
+  },
+  "flywheel": {
+    "title": "The more data accumulates,\nthe more value everyone gains",
+    "steps": [
+      "Shops adopt BUWANG",
+      "Records accumulate",
+      "Rider trust builds",
+      "Shop customers grow"
+    ]
+  },
+  "pricing": {
+    "badge": "Business Model",
+    "title": "An ecosystem that grows together",
+    "tiers": [
+      {
+        "name": "Shop ERP",
+        "price": "Free",
+        "desc": "All features for shop operations",
+        "tag": "Available Now"
+      },
+      {
+        "name": "Rider App",
+        "price": "Free",
+        "desc": "Personal maintenance history management",
+        "tag": "Community + Market"
+      },
+      {
+        "name": "Data Platform",
+        "price": "B2B",
+        "desc": "Standard estimate data, parts price analytics",
+        "tag": "Coming Soon"
+      }
+    ]
+  },
+  "cta": {
+    "title": "The future of motorcycle maintenance\nstarts here",
+    "sub": "Shop onboarding, partnerships, and investment inquiries all welcome",
+    "button": "Contact Us",
+    "partnerTitle": "Building the motorcycle ecosystem together",
+    "partnerSub": "Interested in partnership?",
+    "partnerButton": "Partner Inquiry"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "fields": {
+      "name": "Your Name",
+      "company": "Shop Name",
+      "companyHint": "Leave blank if not a repair shop",
+      "email": "Email",
+      "phone": "Phone",
+      "type": "Inquiry Type",
+      "types": ["Shop Onboarding", "Partnership", "Investment"],
+      "message": "Message",
+      "submit": "Submit Inquiry"
+    },
+    "success": "Your inquiry has been submitted. We'll respond within 1-2 business days."
+  },
+  "footer": {
+    "product": "Product",
+    "productLinks": ["Shop ERP", "Estimate SaaS", "Rider App"],
+    "support": "Support",
+    "supportLinks": ["KakaoTalk", "Contact"],
+    "legal": "Legal",
+    "legalLinks": ["Privacy Policy", "Terms of Service", "Business Info"],
+    "copyright": "© 2025 BUWANG. All rights reserved."
+  }
+}

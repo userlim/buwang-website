@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://buwang.co.kr/sitemap.xml

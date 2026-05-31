@@ -1,0 +1,54 @@
+.splash {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #0a0a14;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  pointer-events: all;
+}
+
+.logoWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 160px;
+  height: 160px;
+  will-change: transform, opacity;
+  filter: drop-shadow(0 0 40px rgba(0, 163, 255, 0.3));
+}
+
+.text {
+  position: absolute;
+  font-family: 'Outfit', sans-serif;
+  font-size: 72px;
+  font-weight: 600;
+  letter-spacing: 12px;
+  background: linear-gradient(90deg, #00a3ff 0%, #00d4ff 35%, #005792 60%, #00a3ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  will-change: opacity, transform;
+  white-space: nowrap;
+  filter: drop-shadow(0 0 40px rgba(0, 163, 255, 0.35));
+}
+
+@media (max-width: 767px) {
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .text {
+    font-size: 48px;
+    letter-spacing: 8px;
+  }
+}
