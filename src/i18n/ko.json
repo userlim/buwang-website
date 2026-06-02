@@ -1,7 +1,7 @@
 {
   "nav": {
-    "about": "부왕 소개",
-    "why": "왜 부왕인가",
+    "about": "What 부왕",
+    "why": "Why 부왕",
     "contact": "도입 문의",
     "cta": "도입 문의"
   },
@@ -40,7 +40,8 @@
     "items": [
       { "value": "210", "unit": "만", "suffix": " 대", "label": "국내 등록 이륜차" },
       { "value": "3,200", "unit": "", "suffix": "+개", "label": "이륜차 전문 정비소", "sub": "자동차관리법 등록 기준" },
-      { "value": "1", "unit": "조", "suffix": " 원", "label": "연간 정비 시장 규모" }
+      { "value": "1", "unit": "조", "suffix": " 원", "label": "연간 정비 시장 규모" },
+      { "value": "90", "unit": "%", "suffix": "", "label": "종이 장부 의존 정비소", "sub": "디지털 전환 사각지대" }
     ]
   },
   "features": {

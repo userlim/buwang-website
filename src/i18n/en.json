@@ -1,6 +1,6 @@
 {
   "nav": {
-    "about": "About",
+    "about": "What BUWANG",
     "why": "Why BUWANG",
     "contact": "Contact",
     "cta": "Get Started"
@@ -38,7 +38,8 @@
     "items": [
       { "value": "2.1", "unit": "M", "suffix": "", "label": "Registered motorcycles in Korea" },
       { "value": "3,200", "unit": "", "suffix": "+", "label": "Specialized repair shops", "sub": "Vehicle Management Act" },
-      { "value": "1", "unit": "T", "suffix": " KRW", "label": "Annual market size" }
+      { "value": "1", "unit": "T", "suffix": " KRW", "label": "Annual market size" },
+      { "value": "90", "unit": "%", "suffix": "", "label": "Shops relying on paper records", "sub": "Digital transformation gap" }
     ]
   },
   "features": {
