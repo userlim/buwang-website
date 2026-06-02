@@ -8,7 +8,7 @@
   "hero": {
     "headline": "The Future of",
     "headlineAccent": "Motorcycle Maintenance.",
-    "sub": "Digitizing maintenance records to resolve information asymmetry in the used motorcycle market",
+    "sub": "From shop operations to rider history — everything for motorcycle maintenance",
     "cta": "Learn More"
   },
   "about": {
@@ -27,7 +27,7 @@
       },
       {
         "label": "For the market,",
-        "highlight": "transparent pricing standards",
+        "highlight": "a reliable maintenance culture",
         "suffix": ""
       }
     ],
@@ -38,8 +38,7 @@
     "items": [
       { "value": "2.1", "unit": "M", "suffix": "", "label": "Registered motorcycles in Korea" },
       { "value": "3,200", "unit": "", "suffix": "+", "label": "Specialized repair shops", "sub": "Vehicle Management Act" },
-      { "value": "1", "unit": "T", "suffix": " KRW", "label": "Annual market size" },
-      { "value": "3", "unit": "", "suffix": "x", "label": "Max price variance for same parts", "sub": "Newsis 2022" }
+      { "value": "1", "unit": "T", "suffix": " KRW", "label": "Annual market size" }
     ]
   },
   "features": {
@@ -54,7 +53,7 @@
       {
         "icon": "scan",
         "title": "License Plate OCR",
-        "desc": "Point your camera for instant vehicle recognition. Record maintenance in under 3 minutes."
+        "desc": "Point your camera for instant vehicle recognition. Record maintenance in 30 seconds."
       },
       {
         "icon": "shield",
@@ -69,18 +68,18 @@
     ]
   },
   "process": {
-    "badge": "3-Minute Record",
+    "badge": "30-Second Record",
     "title": "Just point your camera at the plate",
     "steps": [
       { "num": "01", "title": "Scan Plate", "desc": "Point your camera at the license plate" },
       { "num": "02", "title": "Auto Detect", "desc": "Vehicle recognized in 3 seconds" },
       { "num": "03", "title": "Select Items", "desc": "Choose maintenance items with a single tap" },
-      { "num": "04", "title": "Done", "desc": "Complete record in under 3 minutes" }
+      { "num": "04", "title": "Done", "desc": "Complete record in 30 seconds" }
     ]
   },
   "audience": {
     "badge": "For Everyone",
-    "title": "A platform for every participant\nin the motorcycle ecosystem",
+    "title": "A platform for every participant\nin the motorcycle industry",
     "personas": [
       {
         "icon": "wrench",
@@ -101,7 +100,7 @@
     ]
   },
   "flywheel": {
-    "title": "The more data accumulates,\nthe more value everyone gains",
+    "title": "The more rider records accumulate,\nthe more regulars you gain",
     "steps": [
       "Shops adopt BUWANG",
       "Records accumulate",
@@ -111,19 +110,21 @@
   },
   "pricing": {
     "badge": "Business Model",
-    "title": "An ecosystem that grows together",
+    "title": "A motolife that grows together",
     "tiers": [
       {
         "name": "Shop ERP",
         "price": "Free",
         "desc": "All features for shop operations",
-        "tag": "Available Now"
+        "tag": "Available Now",
+        "note": "* Partial paid features planned"
       },
       {
         "name": "Rider App",
         "price": "Free",
         "desc": "Personal maintenance history management",
-        "tag": "Community + Market"
+        "tag": "Community + Market",
+        "note": "* Partial paid features planned"
       },
       {
         "name": "Data Platform",
@@ -137,7 +138,7 @@
     "title": "The future of motorcycle maintenance\nstarts here",
     "sub": "Shop onboarding, partnerships, and investment inquiries all welcome",
     "button": "Contact Us",
-    "partnerTitle": "Building the motorcycle ecosystem together",
+    "partnerTitle": "Building motorcycle culture together",
     "partnerSub": "Interested in partnership?",
     "partnerButton": "Partner Inquiry"
   },
@@ -147,6 +148,8 @@
       "name": "Your Name",
       "company": "Shop Name",
       "companyHint": "Leave blank if not a repair shop",
+      "address": "Shop Address",
+      "addressHint": "Helps identify shops with the same name",
       "email": "Email",
       "phone": "Phone",
       "type": "Inquiry Type",
@@ -154,7 +157,8 @@
       "message": "Message",
       "submit": "Submit Inquiry"
     },
-    "success": "Your inquiry has been submitted. We'll respond within 1-2 business days."
+    "success": "Your inquiry has been submitted. We'll respond within 1-2 business days.",
+    "backToHome": "Back to Home"
   },
   "footer": {
     "product": "Product",
@@ -163,6 +167,6 @@
     "supportLinks": ["KakaoTalk", "Contact"],
     "legal": "Legal",
     "legalLinks": ["Privacy Policy", "Terms of Service", "Business Info"],
-    "copyright": "© 2025 BUWANG. All rights reserved."
+    "copyright": "© 2026 BUWANG. All rights reserved."
   }
 }

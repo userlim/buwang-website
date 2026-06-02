@@ -6,7 +6,7 @@ export default function Pricing() {
   const { t } = useTranslation()
   const ref = useScrollReveal<HTMLElement>({ type: 'fade-right', stagger: 0.2 })
   const tiers = t('pricing.tiers', { returnObjects: true }) as Array<{
-    name: string; price: string; desc: string; tag: string
+    name: string; price: string; desc: string; tag: string; note?: string
   }>
 
   return (
@@ -24,6 +24,7 @@ export default function Pricing() {
               <h3 className={s.cardName}>{tier.name}</h3>
               <div className={s.cardPrice}>{tier.price}</div>
               <p className={s.cardDesc}>{tier.desc}</p>
+              {tier.note && <p className={s.cardDesc} style={{ fontSize: '0.75rem', opacity: 0.6, marginTop: '0.5rem' }}>{tier.note}</p>}
             </div>
           ))}
         </div>

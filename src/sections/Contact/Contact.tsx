@@ -23,6 +23,17 @@ export default function Contact() {
           <div className={s.success}>
             <div className={s.successIcon}>✓</div>
             <p className={s.successText}>{t('contact.success')}</p>
+            <button
+              className={s.submit}
+              onClick={() => {
+                setSubmitted(false)
+                const fn = (window as unknown as Record<string, (i: number) => void>).__goToSection
+                if (fn) fn(0)
+              }}
+              style={{ marginTop: '1.5rem' }}
+            >
+              {t('contact.backToHome')}
+            </button>
           </div>
         ) : (
           <form className={s.form} onSubmit={handleSubmit} data-reveal>
@@ -47,6 +58,12 @@ export default function Contact() {
                 <input className={s.input} type="text" />
                 <span className={s.hint}>{t('contact.fields.companyHint')}</span>
               </div>
+            </div>
+
+            <div className={s.field}>
+              <label className={s.label}>{t('contact.fields.address')}</label>
+              <input className={s.input} type="text" />
+              <span className={s.hint}>{t('contact.fields.addressHint')}</span>
             </div>
 
             <div className={s.field}>

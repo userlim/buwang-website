@@ -17,7 +17,7 @@ export default function Footer() {
               BUWANG
             </div>
             <p className={s.brandDesc}>
-              이륜차 정비 이력을 디지털화하여, 중고 바이크 시장의 정보 비대칭을 해결하는 통합 플랫폼
+              정비소 운영부터 라이더 이력 관리까지, 이륜차 정비의 모든 것
             </p>
           </div>
 

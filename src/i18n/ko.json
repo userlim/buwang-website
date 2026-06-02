@@ -1,6 +1,6 @@
 {
   "nav": {
-    "about": "회사 소개",
+    "about": "부왕 소개",
     "why": "왜 부왕인가",
     "contact": "도입 문의",
     "cta": "도입 문의"
@@ -8,7 +8,7 @@
   "hero": {
     "headline": "이륜차 정비의",
     "headlineAccent": "미래.",
-    "sub": "정비 이력을 디지털화하여, 중고 바이크 시장의 정보 비대칭을 해결하는 통합 플랫폼",
+    "sub": "정비소 운영부터 라이더 이력 관리까지, 이륜차 정비의 모든 것",
     "cta": "부왕 알아보기"
   },
   "about": {
@@ -27,8 +27,8 @@
       },
       {
         "label": "시장에는",
-        "highlight": "투명한 가격 기준",
-        "suffix": "을 만듭니다."
+        "highlight": "신뢰할 수 있는 정비 문화",
+        "suffix": "를 만듭니다."
       }
     ],
     "marketTitle": "국내 이륜차 정비 시장",
@@ -40,8 +40,7 @@
     "items": [
       { "value": "210", "unit": "만", "suffix": " 대", "label": "국내 등록 이륜차" },
       { "value": "3,200", "unit": "", "suffix": "+개", "label": "이륜차 전문 정비소", "sub": "자동차관리법 등록 기준" },
-      { "value": "1", "unit": "조", "suffix": " 원", "label": "연간 정비 시장 규모" },
-      { "value": "3", "unit": "", "suffix": "배", "label": "동일 부품 최대 가격 편차", "sub": "뉴시스 2022" }
+      { "value": "1", "unit": "조", "suffix": " 원", "label": "연간 정비 시장 규모" }
     ]
   },
   "features": {
@@ -56,7 +55,7 @@
       {
         "icon": "scan",
         "title": "번호판 OCR",
-        "desc": "카메라를 대면 3초 만에 차량 인식. 정비 기록 입력이 3분 이내."
+        "desc": "카메라를 대면 3초 만에 차량 인식. 정비 기록 입력이 30초면 끝."
       },
       {
         "icon": "shield",
@@ -71,18 +70,18 @@
     ]
   },
   "process": {
-    "badge": "3분 정비 기록",
+    "badge": "30초 정비 기록",
     "title": "카메라를 번호판에 대기만 하면",
     "steps": [
       { "num": "01", "title": "번호판 스캔", "desc": "카메라를 번호판에 대기만 하면" },
       { "num": "02", "title": "자동 인식", "desc": "3초 만에 차량 자동 인식" },
       { "num": "03", "title": "항목 선택", "desc": "탭 한 번으로 정비 항목 선택" },
-      { "num": "04", "title": "기록 완료", "desc": "정비 기록 입력, 3분이면 완료" }
+      { "num": "04", "title": "기록 완료", "desc": "정비 기록 입력, 30초면 완료" }
     ]
   },
   "audience": {
     "badge": "모든 참여자를 위한",
-    "title": "이륜차 생태계의\n모든 참여자를 위한 플랫폼",
+    "title": "이륜차 업계\n모든 참여자를 위한 플랫폼",
     "personas": [
       {
         "icon": "wrench",
@@ -103,10 +102,10 @@
     ]
   },
   "flywheel": {
-    "title": "데이터가 쌓일수록,\n모두의 가치가 올라갑니다",
-    "subtitle": "{{data}}가 쌓일수록, {{value}}가 올라갑니다",
-    "subtitleData": "데이터",
-    "subtitleValue": "모두의 가치",
+    "title": "라이더 정비이력이 쌓일수록,\n단골이 늘어납니다",
+    "subtitle": "{{data}}이 쌓일수록, {{value}}이 늘어납니다",
+    "subtitleData": "라이더 정비이력",
+    "subtitleValue": "단골",
     "steps": [
       "정비소가 부왕 도입",
       "정비 기록 축적",
@@ -116,19 +115,21 @@
   },
   "pricing": {
     "badge": "비즈니스 모델",
-    "title": "함께 성장하는 생태계",
+    "title": "함께 성장하는 모토라이프",
     "tiers": [
       {
         "name": "정비소 ERP",
         "price": "무료",
         "desc": "정비소 운영에 필요한 모든 기능",
-        "tag": "현재 제공"
+        "tag": "현재 제공",
+        "note": "* 부분적 유료화 예정"
       },
       {
         "name": "라이더 앱",
         "price": "무료",
         "desc": "내 바이크 정비 이력 관리",
-        "tag": "커뮤니티 + 마켓"
+        "tag": "커뮤니티 + 마켓",
+        "note": "* 부분적 유료화 예정"
       },
       {
         "name": "데이터 플랫폼",
@@ -142,7 +143,7 @@
     "title": "이륜차 정비의 미래,\n함께 시작하세요",
     "sub": "정비소 도입 문의, 제휴 제안, 투자 문의 모두 환영합니다",
     "button": "문의하기",
-    "partnerTitle": "함께 만들어가는 이륜차 생태계",
+    "partnerTitle": "함께 만들어가는 이륜차 문화",
     "partnerSub": "파트너십에 관심이 있으신가요?",
     "partnerButton": "제휴 문의"
   },
@@ -152,6 +153,8 @@
       "name": "담당자명",
       "company": "정비소명",
       "companyHint": "정비소가 아닌 경우 비워두세요",
+      "address": "정비소 주소",
+      "addressHint": "같은 상호명 구분을 위해 입력해주세요",
       "email": "이메일",
       "phone": "연락처",
       "type": "문의 유형",
@@ -159,7 +162,8 @@
       "message": "문의 내용",
       "submit": "문의 접수"
     },
-    "success": "문의가 접수되었습니다. 영업일 기준 1~2일 내에 연락드리겠습니다."
+    "success": "문의가 접수되었습니다. 영업일 기준 1~2일 내에 연락드리겠습니다.",
+    "backToHome": "홈으로 돌아가기"
   },
   "footer": {
     "product": "서비스",
@@ -168,6 +172,6 @@
     "supportLinks": ["카카오 채널", "도입 문의"],
     "legal": "법적 고지",
     "legalLinks": ["개인정보처리방침", "이용약관", "사업자 정보"],
-    "copyright": "© 2025 BUWANG. All rights reserved."
+    "copyright": "© 2026 BUWANG. All rights reserved."
   }
 }

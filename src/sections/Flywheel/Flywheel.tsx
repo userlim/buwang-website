@@ -74,8 +74,8 @@ export default function Flywheel() {
         </div>
 
         <p className={s.subtitle} data-reveal>
-          <span className={s.highlight}>{t('flywheel.subtitleData')}</span>가 쌓일수록,{' '}
-          <span className={s.highlight}>{t('flywheel.subtitleValue')}</span>가 올라갑니다
+          <span className={s.highlight}>{t('flywheel.subtitleData')}</span>이 쌓일수록,{' '}
+          <span className={s.highlight}>{t('flywheel.subtitleValue')}</span>이 늘어납니다
         </p>
       </div>
     </section>
